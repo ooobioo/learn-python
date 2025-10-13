@@ -1,21 +1,26 @@
 # 1 ####################################################################
-
 def wechsel(*args):
     if len(args) < 2:
         return "Zu wenige Argumente"
     
     x = 0
-    counter = 0
+    # counter = 0
+    flip = True
 
     for i in args:
         if type(i) != int:
             return "Alle Argumente müssen Ganzzahlen sein"
-        x = (x + i) if counter % 2 == 0 else (x - i)
-        counter += 1
+        # x = (x + i) if counter % 2 == 0 else (x - i)
+        x = (x + i) if flip else (x - i)
+        # counter += 1
+        flip = not flip
 
     return x
 
-print(wechsel(1,2,3,4,5)) 
+print("Im Wechsel subtrahiert und addiert: ", wechsel(1,2,3,4,5)) 
+print("Im Wechsel subtrahiert und addiert: ", wechsel(1,2,3,4,5,6)) 
+print("Im Wechsel subtrahiert und addiert: ", wechsel(1,2,3,4,5,6,7)) 
+print("Im Wechsel subtrahiert und addiert: ", wechsel(1,2,3,4,5,6,7,8)) 
 
 print()
 
@@ -26,9 +31,10 @@ def ist_null(zahl):
     
     return "Wahr" if bool(zahl) == 0 else "Falsch"
 
-print(ist_null(10))
-print(ist_null(0))
-print(ist_null(1))
+print("10 ist null: ", ist_null(10))
+print("0 ist null: ", ist_null(0))
+print("1 ist null: ", ist_null(1))
+print("8 ist null: ", ist_null(8))
 
 print()
 
@@ -39,7 +45,7 @@ def komplex_betrag(zahl):
     
     return (zahl.real**2 + zahl.imag**2)
 
-print(komplex_betrag(3 + 4j))
+print("Betrag: ",komplex_betrag(3 + 4j))
 
 print()
 
@@ -60,8 +66,9 @@ def unendl_schritte(zahl):
     else:
         return counter
     
-print(unendl_schritte(1.5))
-print(unendl_schritte(3.5))
+print("Schritte bis unendlich (1,5): ", unendl_schritte(1.5))
+print("Schritte bis unendlich (3,5): ", unendl_schritte(3.5))
+print("Schritte bis unendlich (3,0): ", unendl_schritte(3.0))
 
 print()
 
@@ -75,13 +82,18 @@ def list_halbier(liste):
     if length < 2:
         return "Die Liste muss mindestens 2 Zahlen enthalten"
     
-    length_half = int(length/2)
-    
+    # Division
+    # / gibt immer ein float zurück 4/2 → 2.0
+    # // gibt ein int zurück außer mindestens ein Operand ist schon float
+    # / erhält den Dezimalanteil
+    # // rundet ab („in Richtung -∞“), also bei negativen Zahlen weiter nach unten: -5//2 ergibt -3, nicht -2
 
-    a = liste[:length_half] if length % 2 == 0 else liste[:length_half+1]
-    b = liste[length_half:] if length % 2 == 0 else liste[length_half+1:]
-  
-    return [a,b]
+    if(length % 2 == 0):
+        length_half = length//2
+    else:
+        length_half = length//2 + 1
+      
+    return [liste[:length_half], liste[length_half:]]
 
 print(list_halbier([1,2,3,4,5,6,7,8,9,10]))
 print(list_halbier([1,2,3,4,5,6,7,8,9]))
