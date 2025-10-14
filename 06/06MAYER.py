@@ -11,6 +11,34 @@ print(zahlen(string))
 # 2 #######################################
 print()
 
+string = "wo ist der text"
+
+print("Gesuchter Index:",string.index("st"))
+# print("Gesuchter Index:",string.index("p")) # Value Error, Programm bricht ab
+print("Gesuchter Index:",string.find("st"))
+print("Gesuchter Index:",string.find("p")) # Rueckgabewert -1
+
+
+string = "huhu Xaba Z aba X aY"
+print(string.index("aba"))
+print(string.find("aba"))
+print(string.rindex("aba"))
+print(string.rfind("aba"))
+print()
+print(string.index("X"))
+print(string.find("X"))
+print(string.rindex("X"))
+print(string.rfind("X"))
+print()
+print(string.index("Z"))
+print(string.find("Z"))
+print(string.rindex("Z"))
+print(string.rfind("Z"))
+
+# rfind( ) und rindex( ) suchen von hinten. Wann ist ihre 
+# Ausgabe dieselbe wie bei find( ) und index( )?
+# -> die ausgabe ist gleich wenn der gesuchte teilstring nur einmal vorkommt
+
 
 # 3 #######################################
 print()
