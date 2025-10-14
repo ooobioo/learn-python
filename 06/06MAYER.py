@@ -72,11 +72,11 @@ def division(a: int,b: int):
 
 print(division(21,3))
 print(division(203,3))
+print(division(42203,30))
 
 
 # 5 ########################################
 print()
-
 zahlen = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
 
 def gerade(li: list):
