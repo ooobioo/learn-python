@@ -6,11 +6,11 @@ def random_int():
     return random.random()
 
 for i in range(1,10):
-    print("Zufallszahl:", int(1000*random_int()), end=" ")
+    print("Random number:", int(1000*random_int()), end=" ")
 print()
 
 for i in range(1,10):
-    print("Zufallszahl:", random.randint(1,1000), end=" ")
+    print("Random number:", random.randint(1,1000), end=" ")
 print()
 
 
@@ -24,7 +24,7 @@ def random_int5():
     
     return rand
 
-print("Zufallszahl durch 5 teilbar: ", random_int5())
+print("Random number divisible by 5: ", random_int5())
 
 
 # 3 #############################################
@@ -39,13 +39,12 @@ def wuerfelfolge(k=2):
         symbols = ['|', '/', '-', '\\']
         idx = 0
         while not done:
-            print(f'\r{symbols[idx % len(symbols)]} Würfeln...', end='')
+            print(f'\r{symbols[idx % len(symbols)]} I\'m rolling the dice...', end='')
             idx += 1
             time.sleep(0.1)
         print(end="\r")
     
     done = False
-
     spinner_thread = threading.Thread(target=spinner)
     spinner_thread.start()
 
@@ -58,11 +57,14 @@ def wuerfelfolge(k=2):
             last_equal_series.clear()
         last_equal_series.append(round)
         counter += 1
+
     done = True
     spinner_thread.join()
+
+    print("Series: ",last_equal_series)
     return f"{counter:,}".replace(',', '.')
 
-print("Würfe:", wuerfelfolge(8))
+print("Dice rolls:", wuerfelfolge(10))
 
 
 # 4 #############################################
@@ -73,10 +75,10 @@ def wuerfelfolge2(k=2):
     while max(wuerfe_pro_zahl) < k:
         round = random.randint(1,6)
         wuerfe_pro_zahl[round-1] += 1
-    print(wuerfe_pro_zahl)
+    print("Scoreboard: ",wuerfe_pro_zahl)
     return sum(wuerfe_pro_zahl)
 
-print("Würfe:", wuerfelfolge2(100))
+print("Dice rolls:", wuerfelfolge2(100))
 
 
 # 5 #############################################
