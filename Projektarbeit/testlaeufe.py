@@ -14,6 +14,17 @@ def do_something(k):
     return hash(k) % 10
 
 
+def run_for(liste):
+    start = time.perf_counter()
+    for i in range(len(liste)):
+        some_value = do_something(i)
+        if str(some_value) == "testword":
+            print("something")
+    end = time.perf_counter()
+    compute_time = round(end-start, 4)
+    return compute_time
+
+
 def run_while(liste):
     counter = 0
     start = time.perf_counter()
@@ -22,17 +33,6 @@ def run_while(liste):
         if str(some_value) == "testword":
             print("something")
         counter += 1
-    end = time.perf_counter()
-    compute_time = round(end-start, 4)
-    return compute_time
-
-
-def run_for(liste):
-    start = time.perf_counter()
-    for i in range(len(liste)):
-        some_value = do_something(i)
-        if str(some_value) == "testword":
-            print("something")
     end = time.perf_counter()
     compute_time = round(end-start, 4)
     return compute_time
