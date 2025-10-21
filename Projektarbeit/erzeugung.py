@@ -26,7 +26,7 @@ def write_file(content: list):
 
 print()
 print("### LISTE ERZEUGEN")
-list = generate_integer_values(300000)
+list = generate_integer_values(100000)
 print()
 print("### DATEI SCHREIBEN")
 write_file(list)

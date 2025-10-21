@@ -1,5 +1,8 @@
 import time
 
+multiplikator = 2
+rounds = 5
+
 def do_something(k):
     x = str(10*k)
     if x == True:
@@ -7,24 +10,28 @@ def do_something(k):
     else:
         return None
 
+
 def run_while(liste):
     counter = 0
     start = time.process_time()
     while counter < len(liste):
         some_value = do_something(liste[100])
+        if some_value == i:
+            print("something")
         counter += 1
     end = time.process_time()
     compute_time = round(end-start, 4)
-    print(f"While loop: {compute_time}s")
     return compute_time
+
 
 def run_for(liste):
     start = time.process_time()
     for i in range(len(liste)):
         some_value = do_something(liste[100])
+        if some_value == i:
+            print("something")
     end = time.process_time()
     compute_time = round(end-start, 4)
-    print(f"For loop: {compute_time}s")
     return compute_time
 
 
@@ -32,33 +39,118 @@ def read_file():
     str_list= []
     int_list = []
     list_list = []
+    big_list = []
     with open("numbers.csv", "r") as file:
         start = time.process_time()
+        # loop over all rows in the file
         for row in file:
-            str_list.append(row)
-            int_list.append(int(row))
-            list_list.append([row])
+            # multiply rows
+            # take each row, add the number of i to the beginning and write to big_list
+            for i in range(1, multiplikator+1):
+                big_list.append(str(i) + row)
+        # create the lists for different data types from big_list        
+        for el in big_list:
+            str_list.append(el)
+            int_list.append(int(el))
+            list_list.append([el])
         end = time.process_time()
         print("### IMPORT")
-        print(f"Importing file with {len(str_list)} rows took: {round(end-start, 3)}s")
+        print(f"Importing file and creating a list with {len(big_list):,}".replace(",","."), end=" ")
+        print(f"elements took: {round(end-start, 3)}s")
     print()
+    return str_list, int_list, list_list
 
-    print("### STRINGS")
-    run_for(str_list)
-    run_while(str_list)
-    print()
 
-    print("### INTEGER")
-    run_for(int_list)
-    run_while(int_list)
-    print()
+def compare_loops(list):
+    compute_time_for = run_for(list)
+    compute_time_while = run_while(list)
+    return compute_time_for, compute_time_while
 
-    print("### LIST")
-    run_for(list_list)
-    run_while(list_list)
-    print()
 
-    return
+def calculate_mean(numbers: list):
+    return round(sum(numbers)/len(numbers),4)
+
+
+def print_with_four_digits(number):
+    return f"{number:.4f}"
+
+
+def create_field(text: str):
+    field = f"{text:<20}"
+    return field
+
+
+def create_row_template(liste: list):
+    string = ""
+    for el in liste:
+        string += create_field(el)
+    return string
+
+
+def create_separator():
+    return 120 * "-"
+
+
+def create_header():
+    separator = create_separator()
+    header = create_row_template(["Anzahl", "Typ", "Durchlauefe", "Mittelwert FOR", "Mittelwert WHILE", "Abweichung"])
+    return separator + "\n" + header + "\n" + separator 
+
+
+def calculate_abweichung(a,b):
+    return f"{round(abs(a - b) / a * 100, 1)}%"
+
+
+def create_row(data: list):
+    length = f"{data[0]:,}".replace(",",".")
+    row = create_row_template([length, data[1], data[2], print_with_four_digits(calculate_mean(data[3]['Timings']['For'])), print_with_four_digits(calculate_mean(data[3]['Timings']['While'])), calculate_abweichung(calculate_mean(data[3]['Timings']['For']), calculate_mean(data[3]['Timings']['While']))])
+    return row
+
+def create_table(liste: list):
+    header = create_header() 
+    table_data = "\n"
+    for el in liste:
+        table_data = table_data + create_row(el) + "\n"
+    
+    return header + table_data
+
+
+
+str_list, int_list, list_list = read_file()
+
+di = {
+    "String": {
+        "Timings": {
+            "For": [],
+            "While": []
+        }
+    },
+    "Integer": {
+        "Timings": {
+            "For": [],
+            "While": []
+        }
+    },
+    "List": {
+        "Timings": {
+            "For": [],
+            "While": []
+        }
+    },
+}
+
+for i in range(rounds):
+    di["String"]["Timings"]["For"].append(run_for(str_list))
+    di["String"]["Timings"]["While"].append(run_while(str_list))
+    di["Integer"]["Timings"]["For"].append(run_for(int_list))
+    di["Integer"]["Timings"]["While"].append(run_while(int_list))
+    di["List"]["Timings"]["For"].append(run_for(list_list))
+    di["List"]["Timings"]["While"].append(run_while(list_list))
 
 print()
-read_file()
+
+table = create_table([[len(str_list), "String", rounds, di["String"]], [len(int_list), "Integer", rounds, di["Integer"]], [len(list_list), "List", rounds, di["List"]]])
+
+print(table)
+
+print()
