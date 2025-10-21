@@ -79,6 +79,7 @@ def wuerfelfolge2(k=2):
     return sum(wuerfe_pro_zahl)
 
 print("Dice rolls:", wuerfelfolge2(100))
+print("Dice rolls:", wuerfelfolge2(1000))
 
 
 # 5 #############################################
