@@ -2,7 +2,6 @@ import time
 import datetime
 from pathlib import Path
 # from multiprocessing import Pool
-import concurrent.futures
 
 
 MIN_MULTIPLIER, MAX_MULTIPLIER = 1, 100
@@ -145,12 +144,12 @@ def create_table(items: list) -> str:
     return f"{header}\n{table_data}\n{footer}\n"
 
 
-def write_file(content: str, runtime: str, filename: str = "output.txt") -> None:
+def write_file(content: str, filename: str = "output.txt") -> None:
     start = time.perf_counter()
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(filename, "a") as file:
-        file.write("#"*70 + "\n")
-        file.write(timestamp + "  |  parallel execution: " + parallel_excecution +  "  |  Laufzeit: " + runtime + "\n")
+        file.write("#"*19 + "\n")
+        file.write(timestamp + "\n")
         file.write(content +"\n"*2)
     duration = time.perf_counter() - start
     print(f"\nWrote {len(content):,} characters to {filename} in {duration:.4f}s".replace(",", "."))
@@ -188,67 +187,44 @@ while True:
         print(e)
         break
 
-    parallel_excecution = input(f"Soll der Code parallel ausgeführt werden (yes/no):  ")
-    if parallel_excecution.lower() not in ["yes", "no"]:
-        print(f"Invalid input – the value must be between yes or no.")
-        continue
-
     start = time.perf_counter()
 
-    if parallel_excecution.lower() == "yes":
-        def time_strings():
-                results = {"For": [], "While": []}
-                for _ in range(rounds):
-                    results["For"].append(run_for(str_list))
-                    results["While"].append(run_while(str_list))
-                return results
+    for i in range(rounds):
+        timing_data["String"]["Timings"]["For"].append(run_for(str_list))
+        timing_data["String"]["Timings"]["While"].append(run_while(str_list))
+        timing_data["Integer"]["Timings"]["For"].append(run_for(int_list))
+        timing_data["Integer"]["Timings"]["While"].append(run_while(int_list))
+        timing_data["List"]["Timings"]["For"].append(run_for(list_list))
+        timing_data["List"]["Timings"]["While"].append(run_while(list_list))
 
-        def time_integers():
-            results = {"For": [], "While": []}
-            for _ in range(rounds):
-                results["For"].append(run_for(int_list))
-                results["While"].append(run_while(int_list))
-            return results
 
-        def time_lists():
-            results = {"For": [], "While": []}
-            for _ in range(rounds):
-                results["For"].append(run_for(list_list))
-                results["While"].append(run_while(list_list))
-            return results
+    # def run_all_ops(i):
+    #     return {
+    #         "StringFor": run_for(str_list),
+    #         "StringWhile": run_while(str_list),
+    #         "IntFor": run_for(int_list),
+    #         "IntWhile": run_while(int_list),
+    #         "ListFor": run_for(list_list),
+    #         "ListWhile": run_while(list_list)
+    #     }
 
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            future_str = executor.submit(time_strings)
-            future_int = executor.submit(time_integers)
-            future_lst = executor.submit(time_lists)
 
-            str_timings = future_str.result()
-            int_timings = future_int.result()
-            list_timings = future_lst.result()
+    # PROCESSES = 20
 
-        timing_data = {
-            "String": {"Name": "String", "Timings": str_timings},
-            "Integer": {"Name": "Integer", "Timings": int_timings},
-            "List": {"Name": "List", "Timings": list_timings},
-        }
+    # with Pool(processes=PROCESSES) as pool1:
+    #     results = pool1.map(run_all_ops, range(rounds))
 
-    else:   
-        for i in range(rounds):
-            # strings
-            timing_data["String"]["Timings"]["For"].append(run_for(str_list))
-            timing_data["String"]["Timings"]["While"].append(run_while(str_list))
-            # integer
-            timing_data["Integer"]["Timings"]["For"].append(run_for(int_list))
-            timing_data["Integer"]["Timings"]["While"].append(run_while(int_list))
-            # lists
-            timing_data["List"]["Timings"]["For"].append(run_for(list_list))
-            timing_data["List"]["Timings"]["While"].append(run_while(list_list))
-
+    # for res in results:
+    #     timing_data["String"]["Timings"]["For"].append(res["StringFor"])
+    #     timing_data["String"]["Timings"]["While"].append(res["StringWhile"])
+    #     timing_data["Integer"]["Timings"]["For"].append(res["IntFor"])
+    #     timing_data["Integer"]["Timings"]["While"].append(res["IntWhile"])
+    #     timing_data["List"]["Timings"]["For"].append(res["ListFor"])
+    #     timing_data["List"]["Timings"]["While"].append(res["ListWhile"])
 
     table = create_table([[len(str_list), rounds, timing_data["String"]], [len(int_list), rounds, timing_data["Integer"]], [len(list_list), rounds, timing_data["List"]]])
     print(table)
+    write_file(table)
     end = time.perf_counter()
-    runtime = f"{end-start:.2f}s".replace(",", ".")
-    write_file(table, runtime)
     print("\n### PROCESSING DATA")
-    print(f"Processing took: {runtime}")
+    print(f"Processing took: {end-start:.2f}s".replace(",", "."))
