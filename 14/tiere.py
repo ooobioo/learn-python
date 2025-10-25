@@ -28,10 +28,20 @@ class Tier:
 class Hund(Tier):
     anzahl_hunde = 0
 
+    def population(cls):
+        return (cls.anzahl_hunde, Tier.anzahl_tiere)
+
     def __init__(self, name, hundemarke):
         super().__init__(name)
         self.marke = hundemarke
         Hund.anzahl_hunde += 1
+    
+    def __str__(self, *args):
+        parameters = list(args)
+        if len(args) > 0:
+            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.name} - Rasse: {parameters[0]}"
+        else:
+            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.name}"
         
     def spricht():
         return "wau"
@@ -42,17 +52,42 @@ class Hund(Tier):
         return False
     
     def get_all_hunde(self):
-        res = f"\nKatzen: {Hund.anzahl_hunde} \n"
+        res = f"\Hunde: {Hund.anzahl_hunde} \n"
         return res
+    
+    population_ = classmethod(population)
+
+
+class Rassehund(Hund):
+    rasse = ""
+    
+    def __init__(self, name, hundemarke, rasse):
+        super().__init__(name, hundemarke)
+        self.rasse = rasse
+        Hund.anzahl_hunde += 1
+    
+    def __str__(self):
+        return super().__str__(self.rasse)
 
 
 class Katze(Tier):
     anzahl_katzen = 0
 
+    def f(cls):
+        return (cls.anzahl_katzen, Tier.anzahl_tiere)
+
     def __init__(self, name, farbe):
         super().__init__(name)
         self.farbe = farbe
         Katze.anzahl_katzen += 1
+
+    @classmethod
+    def cls(cls, x):
+        return cls.anzahl_katzen + x
+
+    @staticmethod
+    def stm(x):
+        return Katze.anzahl_katzen + x
 
     def spricht(self):
         return f"{self.name} spricht: Miau!"
@@ -99,6 +134,8 @@ hund4 = Hund("Fuffu", 123456)
 katze1 = Katze("Minka", "gelb")
 katze2 = Katze("Munka", "gelb")
 
+
+
 print("Hunde", hund1.anzahl_hunde)
 print("Katzen", katze1.anzahl_katzen)
 print("Tiere", katze1.anzahl_tiere)
@@ -124,3 +161,27 @@ print()
 print("Hunde", hund1.anzahl_hunde)
 print("Katzen", katze1.anzahl_katzen)
 print("Tiere", katze1.anzahl_tiere)
+
+
+print(hund1.population())
+print(hund1.population_())
+# print(Hund.population()) Error
+print(Hund.population_())
+
+
+print()
+print(str(hund1))
+print(hund1)
+print(hund2)
+print(hund2.name)
+print(hund2.__str__())
+
+li = [1,2,3]
+
+# print(dir(li))
+# print(max(li))
+
+print()
+
+rassehund1 = Rassehund("Hasso", 234, "Dackel")
+print(str(rassehund1))
