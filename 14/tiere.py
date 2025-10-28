@@ -5,7 +5,7 @@ class Tier:
     anzahl_tiere = 0
 
     def __init__(self, name):
-        self.name = name
+        self.__name = name
         Tier.anzahl_tiere += 1
         
     def spricht(self):
@@ -15,10 +15,16 @@ class Tier:
         pass
         
     def name_aus(self):
-        return self.name
+        return self.__name
+    
+    def get_tier_name(self):
+        return self.__get_name()
+    
+    def __get_name(self):
+         return self.__name
     
     def fuettern(self):
-        print(f"{self.name} bedankt sich fuer das leckere Futter!")
+        print(f"{self.__name} bedankt sich fuer das leckere Futter!")
 
     def get_all_tiere(self):
         res = f"\nTiere: {Tier.anzahl_tiere} \n"
@@ -39,9 +45,9 @@ class Hund(Tier):
     def __str__(self, *args):
         parameters = list(args)
         if len(args) > 0:
-            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.name} - Rasse: {parameters[0]}"
+            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.get_tier_name()} - Rasse: {parameters[0]}"
         else:
-            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.name}"
+            return f"Ich bin ein Instanz der Klasse Hund mit Name: {self.get_tier_name()}"
         
     def spricht():
         return "wau"
@@ -54,6 +60,9 @@ class Hund(Tier):
     def get_all_hunde(self):
         res = f"\Hunde: {Hund.anzahl_hunde} \n"
         return res
+    
+    def get_tier_name(self):
+        return super().get_tier_name() + " !!! WauWau !!!"
     
     population_ = classmethod(population)
 
@@ -90,7 +99,7 @@ class Katze(Tier):
         return Katze.anzahl_katzen + x
 
     def spricht(self):
-        return f"{self.name} spricht: Miau!"
+        return f"{self.__name} spricht: Miau!"
     
     def frisst(self, nahrung):
         return nahrung == ("Fleisch" or "Fisch")
@@ -105,25 +114,34 @@ class Katze(Tier):
 
 class Mensch:
     def __init__(self, name: str, tiere: list[Tier]):
-        self.name = name
+        self.__name = name
         if 1 <= len(tiere) <= 5 and all(isinstance(tier, Tier) for tier in tiere):
             self.tiere = set(tiere)
         else:
             raise ValueError("Tiere must be list of class Tier and amount must be between 1 and 5")
     
+    def __str__(self):
+        return f"{self.get_name()} - {self.get_tiere_class_and_names()}"
+    
+    def __repr__(self):
+       return self.__str__()
+    
+    def get_name(self):
+        return self.__name
+
     def get_tiere_class_and_names(self):
         names = []
         for tier in self.tiere:
-            names.append(f"{type(tier).__name__}: {tier.name}")
+            names.append(f"{type(tier).__name__}: {tier.get_tier_name()}")
         return sorted(names)
     
     def anbetteln(self, tier: Tier):
         if tier in self.tiere and isinstance(tier, Hund):
             tier.fuettern()
         elif tier in self.tiere :
-            print(f"{tier.name} fuettere ich nicht! Du bist meine {type(tier).__name__}.")
+            print(f"{tier.get_tier_name()} fuettere ich nicht! Du bist meine {type(tier).__name__}.")
         else:
-            print(f"{tier.name} fuettere ich nicht! Du bist ein fremdes Tier!")
+            print(f"{tier.get_tier_name()} fuettere ich nicht! Du bist ein fremdes Tier!")
 
 
 
@@ -150,7 +168,7 @@ mensch2 = Mensch("Paul", [hund2])
 
 print()
 me = Mensch(name="Thomas", tiere=[hund1, hund2, hund3, hund4, katze1])
-print(f"{me.name} Tiere sind: {me.get_tiere_class_and_names()}")
+print(f"{me.get_name()} Tiere sind: {me.get_tiere_class_and_names()}")
 
 me.anbetteln(hund1)
 me.anbetteln(fremder_hund)
@@ -173,7 +191,7 @@ print()
 print(str(hund1))
 print(hund1)
 print(hund2)
-print(hund2.name)
+print(hund2.get_tier_name())
 print(hund2.__str__())
 
 li = [1,2,3]
@@ -185,3 +203,18 @@ print()
 
 rassehund1 = Rassehund("Hasso", 234, "Dackel")
 print(str(rassehund1))
+
+print(hund1.get_tier_name())
+
+
+print(me)
+print(repr(me))
+
+
+# print(Hund.__dict__())
+
+tierX = Tier("the tier")
+print(tierX._Tier__name)
+
+tierX._Tier__name = "bla"
+print(tierX._Tier__name)
