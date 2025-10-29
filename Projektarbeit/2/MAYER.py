@@ -17,16 +17,11 @@ class Spieler:
         self.id = id
         self.spielstaerke = spielstaerke
 
-    def aufschlag(self, set_punkt_callback, gegner):
+    def aufschlag(self, set_punkt_callback, gegner: "Spieler"):
         schlagstaerke = randint(0, self.spielstaerke)
-        verloren = False
+        logging.info(f"Aufschlag {self.name:<17}: {schlagstaerke:>3}")
         if schlagstaerke == 0:
-            logging.info("Aufschlag %s: %d", self.name, schlagstaerke)
             logging.info("----> Punkt für %s", {gegner.name})
-            verloren = True
-        else:
-            logging.info("Aufschlag %s: %d", self.name, schlagstaerke)
-        if verloren == True:
             set_punkt_callback(gegner)
         else:
             gegner.schlag(self, set_punkt_callback, schlagstaerke)
@@ -34,16 +29,14 @@ class Spieler:
     
     def schlag(self, gegner: "Spieler", set_punkt_callback, gegner_schlagstaerke):
         schlagstaerke = randint(0, self.spielstaerke)
+        logging.info(f"Schlag {self.name:<20}: {schlagstaerke:>3}")
         if schlagstaerke == 0:
-            logging.info("Schlag %s: %d", self.name, schlagstaerke)
             logging.info("----> Punkt für %s", {gegner.name})
             set_punkt_callback(gegner)
         elif schlagstaerke < (gegner_schlagstaerke - RUECKSCHLAG_HANDICAP):
-            logging.info("Schlag %s: %d", self.name, schlagstaerke)
             logging.info("----> Punkt für %s", {gegner.name})
             set_punkt_callback(gegner)
         else:
-            logging.info("Schlag %s: %d", self.name, schlagstaerke)
             gegner.schlag(self, set_punkt_callback, schlagstaerke)
 
 
@@ -72,36 +65,30 @@ class Spiel:
         logging.info(40 * "#")
         logging.info(f"Endergebnis: {self.ergebnis}")
         logging.info(f"Der Gewinner ist {self.spieler[self.ergebnis.index(max(self.ergebnis))].name}")
-        res = f"{self.spieler[0].name}({self.spieler[0].id}, Stärke {self.spieler[0].spielstaerke})"
+        res = f"\n{self.spieler[0].name}({self.spieler[0].id}, Stärke {self.spieler[0].spielstaerke})"
         res = res + " : " + f"{self.spieler[1].name}({self.spieler[1].id}, Stärke {self.spieler[1].spielstaerke})\n"
         for satz in self.saetze:
             res = res + f"{satz} "
-        res = res + f"\nDer Gewinner ist {self.spieler[self.ergebnis.index(max(self.ergebnis))].name} mit "+  ":".join(str(x) for x in self.ergebnis)
+        res = res + f"\nDer Gewinner ist {self.spieler[self.ergebnis.index(max(self.ergebnis))].name} mit "+  ":".join(str(x) for x in self.ergebnis) + "\n"
         return res
     
     def satz(self):
         baelle = 0
-        logging.info(3 * "\n")
-        logging.info(40 * "_")
         logging.info(f"Satz beginnt")
         while (max(self.spielstand_satz) < PUNKTE_ZUM_SATZGEWINN) or ((max(self.spielstand_satz) >= PUNKTE_ZUM_SATZGEWINN) and (max(self.spielstand_satz) - min(self.spielstand_satz)) <= 1):
             if baelle > 0 and baelle % 2 == 0:
-                logging.info(6 * "..  ")
                 logging.info(f"Aufschlag wechselt zu: {self.spieler[self.hat_aufschlag].name}")
-                logging.info(6 * "..  ")
                 self.wechsel_aufschlag()
             self.punkt()
             baelle += 1
-            logging.info(f"Neuer Spielstand: {self.spielstand_satz}")
-        logging.info(40 * "_")
-        logging.info(f"Satz endet: {self.spielstand_satz}")
+            logging.info(f"Neuer Spielstand: {self.spielstand_satz}" + 10 * "." + "\n")
+        logging.info(f"Satz endet: {self.spielstand_satz}" + 3 * "\n")
         self.saetze.append(":".join(str(x) for x in self.spielstand_satz))
         self.wechsel_satz_aufschlag()
         return self.spielstand_satz.index(max(self.spielstand_satz))
     
     def punkt(self):
-        logging.info(40 * ".")
-        logging.info(f"Punkt beginnt")
+        logging.info(f"Punkt beginnt " + 20 * ".")
         self.spieler[self.hat_aufschlag].aufschlag(self.set_punkt, self.spieler[self.wechsel(self.hat_aufschlag)])
 
     def set_punkt(self, gewinner):
