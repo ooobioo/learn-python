@@ -17,7 +17,8 @@ class Spieler:
         self.id = id
         self.spielstaerke = spielstaerke
 
-    def aufschlag(self, set_punkt_callback, gegner: "Spieler"):
+
+    def aufschlag(self, gegner: "Spieler", set_punkt_callback):
         schlagstaerke = randint(0, self.spielstaerke)
         logging.info(f"Aufschlag {self.name:<17}: {schlagstaerke:>3}")
         if schlagstaerke == 0:
@@ -26,7 +27,7 @@ class Spieler:
         else:
             gegner.schlag(self, set_punkt_callback, schlagstaerke)
 
-    
+
     def schlag(self, gegner: "Spieler", set_punkt_callback, gegner_schlagstaerke):
         schlagstaerke = randint(0, self.spielstaerke)
         logging.info(f"Schlag {self.name:<20}: {schlagstaerke:>3}")
@@ -56,6 +57,7 @@ class Spiel:
         logging.info(f"Gewinnsätze: {self.gewinnsaetze}")
         logging.info(50 * "#")
 
+
     def spielen(self):
         while max(self.ergebnis) < self.gewinnsaetze:
             gewinner = self.satz()
@@ -71,7 +73,8 @@ class Spiel:
             res = res + f"{satz} "
         res = res + f"\nDer Gewinner ist {self.spieler[self.ergebnis.index(max(self.ergebnis))].name} mit "+  ":".join(str(x) for x in self.ergebnis) + "\n"
         return res
-    
+
+
     def satz(self):
         baelle = 0
         logging.info(f"Satz beginnt")
@@ -89,27 +92,33 @@ class Spiel:
     
     def punkt(self):
         logging.info(f"Punkt beginnt " + 20 * ".")
-        self.spieler[self.hat_aufschlag].aufschlag(self.set_punkt, self.spieler[self.wechsel(self.hat_aufschlag)])
+        self.spieler[self.hat_aufschlag].aufschlag(self.spieler[self.wechsel(self.hat_aufschlag)], self.set_punkt)
+
 
     def set_punkt(self, gewinner):
         index = self.spieler.index(gewinner)
         self.spielstand_satz[index] += 1
 
+
     def wechsel_aufschlag(self):
         self.hat_aufschlag = self.wechsel(self.hat_aufschlag)
-  
+
+
     def wechsel_satz_aufschlag(self):
         self.hat_satz_aufschlag = self.wechsel(self.hat_satz_aufschlag)
         self.hat_aufschlag = self.hat_satz_aufschlag
 
+
     def wechsel(self, i):
         return 1 if i== 0 else 0
+
 
     def ermittle_aufschlag(self):
         return randint(0,1)
 
-s1 = Spieler("Hans Müller", 1234, 85)
-s2 = Spieler("Jürgen Fischer", 5678, 90)
+
+s1 = Spieler("Hans Müller", 1234, 49)
+s2 = Spieler("Jürgen Fischer", 5678, 51)
 
 sp = Spiel(s1, s2, 4)
 
