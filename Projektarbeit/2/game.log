@@ -7,717 +7,358 @@ INFO:root:##################################################
 INFO:root:Satz beginnt
 INFO:root:Punkt beginnt ....................
 INFO:root:Aufschlag Jürgen Fischer   :   7
-INFO:root:Schlag Hans Müller         :   8
-INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  51
 INFO:root:Schlag Hans Müller         :  19
-INFO:root:Schlag Jürgen Fischer      :  33
-INFO:root:Schlag Hans Müller         :   6
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [0, 1]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  36
-INFO:root:Schlag Hans Müller         :   3
+INFO:root:Aufschlag Jürgen Fischer   :  50
+INFO:root:Schlag Hans Müller         :  49
+INFO:root:Schlag Jürgen Fischer      :  22
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [1, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  47
+INFO:root:Schlag Jürgen Fischer      :  22
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 1]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  21
+INFO:root:Schlag Jürgen Fischer      :  16
+INFO:root:Schlag Hans Müller         :   8
+INFO:root:Schlag Jürgen Fischer      :  12
+INFO:root:Schlag Hans Müller         :  21
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:Schlag Hans Müller         :  18
+INFO:root:Schlag Jürgen Fischer      :   6
+INFO:root:Schlag Hans Müller         :   1
+INFO:root:Schlag Jürgen Fischer      :  41
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  35
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [3, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   0
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [4, 1]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  37
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  17
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  46
+INFO:root:Schlag Jürgen Fischer      :  12
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 1]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  21
+INFO:root:Schlag Jürgen Fischer      :   0
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [7, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  16
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:Schlag Jürgen Fischer      :  25
+INFO:root:Schlag Hans Müller         :  42
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  49
+INFO:root:Schlag Jürgen Fischer      :  33
+INFO:root:Schlag Hans Müller         :  20
+INFO:root:Schlag Jürgen Fischer      :  34
+INFO:root:Schlag Hans Müller         :  34
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  34
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  36
+INFO:root:Schlag Hans Müller         :  25
+INFO:root:Schlag Jürgen Fischer      :  23
+INFO:root:Schlag Hans Müller         :  35
+INFO:root:Schlag Jürgen Fischer      :  33
+INFO:root:Schlag Hans Müller         :  26
+INFO:root:Schlag Jürgen Fischer      :  17
+INFO:root:Schlag Hans Müller         :  20
+INFO:root:Schlag Jürgen Fischer      :  26
+INFO:root:Schlag Hans Müller         :   7
 INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [0, 2]..........
+INFO:root:Neuer Spielstand: [7, 2]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   3
+INFO:root:Schlag Hans Müller         :   0
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [7, 3]..........
 
 INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
 INFO:root:Aufschlag Hans Müller      :  49
-INFO:root:Schlag Jürgen Fischer      :  23
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [1, 2]..........
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  24
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [7, 4]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  42
-INFO:root:Schlag Jürgen Fischer      :  32
-INFO:root:Schlag Hans Müller         :  34
-INFO:root:Schlag Jürgen Fischer      :  19
-INFO:root:Schlag Hans Müller         :  45
-INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:Aufschlag Hans Müller      :   8
+INFO:root:Schlag Jürgen Fischer      :  26
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:Schlag Jürgen Fischer      :   4
+INFO:root:Schlag Hans Müller         :  10
+INFO:root:Schlag Jürgen Fischer      :   4
+INFO:root:Schlag Hans Müller         :  10
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  22
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  11
 INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [2, 2]..........
+INFO:root:Neuer Spielstand: [8, 4]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  28
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :   2
-INFO:root:Schlag Hans Müller         :   5
-INFO:root:Schlag Jürgen Fischer      :  37
+INFO:root:Aufschlag Jürgen Fischer   :  43
 INFO:root:Schlag Hans Müller         :  34
-INFO:root:Schlag Jürgen Fischer      :  45
-INFO:root:Schlag Hans Müller         :  41
-INFO:root:Schlag Jürgen Fischer      :  17
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [3, 2]..........
+INFO:root:Schlag Jürgen Fischer      :  40
+INFO:root:Schlag Hans Müller         :  40
+INFO:root:Schlag Jürgen Fischer      :  30
+INFO:root:Schlag Hans Müller         :  22
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  19
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [8, 5]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  39
-INFO:root:Schlag Hans Müller         :   4
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [3, 3]..........
+INFO:root:Aufschlag Jürgen Fischer   :  33
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  12
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [9, 5]..........
 
 INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
 INFO:root:Aufschlag Hans Müller      :  48
-INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Jürgen Fischer      :  21
 INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [4, 3]..........
+INFO:root:Neuer Spielstand: [10, 5]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   9
-INFO:root:Schlag Jürgen Fischer      :  12
-INFO:root:Schlag Hans Müller         :  48
-INFO:root:Schlag Jürgen Fischer      :  51
-INFO:root:Schlag Hans Müller         :  31
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [4, 4]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  39
-INFO:root:Schlag Hans Müller         :  38
-INFO:root:Schlag Jürgen Fischer      :  44
-INFO:root:Schlag Hans Müller         :  44
-INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:Aufschlag Hans Müller      :  46
+INFO:root:Schlag Jürgen Fischer      :   8
 INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [5, 4]..........
+INFO:root:Neuer Spielstand: [11, 5]..........
 
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :   2
-INFO:root:Schlag Hans Müller         :  28
-INFO:root:Schlag Jürgen Fischer      :  32
-INFO:root:Schlag Hans Müller         :   3
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 5]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  28
-INFO:root:Schlag Jürgen Fischer      :  30
-INFO:root:Schlag Hans Müller         :   1
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 6]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   8
-INFO:root:Schlag Jürgen Fischer      :  29
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :  35
-INFO:root:Schlag Hans Müller         :   6
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 7]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  47
-INFO:root:Schlag Hans Müller         :  28
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 8]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :   3
-INFO:root:Schlag Hans Müller         :  44
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [6, 8]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   8
-INFO:root:Schlag Jürgen Fischer      :  44
-INFO:root:Schlag Hans Müller         :   8
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 9]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  32
-INFO:root:Schlag Jürgen Fischer      :  26
-INFO:root:Schlag Hans Müller         :  28
-INFO:root:Schlag Jürgen Fischer      :  43
-INFO:root:Schlag Hans Müller         :   1
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 10]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  14
-INFO:root:Schlag Hans Müller         :  22
-INFO:root:Schlag Jürgen Fischer      :  13
-INFO:root:Schlag Hans Müller         :  27
-INFO:root:Schlag Jürgen Fischer      :  18
-INFO:root:Schlag Hans Müller         :  30
-INFO:root:Schlag Jürgen Fischer      :  34
-INFO:root:Schlag Hans Müller         :  15
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 11]..........
-
-INFO:root:Satz endet: [6, 11]
+INFO:root:Satz endet: [11, 5]
 
 
 
 INFO:root:Satz beginnt
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  26
-INFO:root:Schlag Jürgen Fischer      :  22
-INFO:root:Schlag Hans Müller         :  13
-INFO:root:Schlag Jürgen Fischer      :  16
-INFO:root:Schlag Hans Müller         :  39
-INFO:root:Schlag Jürgen Fischer      :  26
-INFO:root:Schlag Hans Müller         :  11
-INFO:root:Schlag Jürgen Fischer      :  37
-INFO:root:Schlag Hans Müller         :  27
-INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:Aufschlag Hans Müller      :  37
+INFO:root:Schlag Jürgen Fischer      :  19
 INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [1, 0]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  23
-INFO:root:Schlag Jürgen Fischer      :  28
-INFO:root:Schlag Hans Müller         :  14
-INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Aufschlag Hans Müller      :  20
+INFO:root:Schlag Jürgen Fischer      :   7
 INFO:root:Schlag Hans Müller         :  17
-INFO:root:Schlag Jürgen Fischer      :  20
-INFO:root:Schlag Hans Müller         :  19
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:Schlag Hans Müller         :  24
 INFO:root:Schlag Jürgen Fischer      :  42
-INFO:root:Schlag Hans Müller         :   8
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [1, 1]..........
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 0]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  39
+INFO:root:Aufschlag Jürgen Fischer   :  14
+INFO:root:Schlag Hans Müller         :  31
+INFO:root:Schlag Jürgen Fischer      :  16
 INFO:root:Schlag Hans Müller         :  49
-INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:Schlag Jürgen Fischer      :  19
 INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [2, 1]..........
+INFO:root:Neuer Spielstand: [3, 0]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :   1
-INFO:root:Schlag Hans Müller         :   7
-INFO:root:Schlag Jürgen Fischer      :  25
-INFO:root:Schlag Hans Müller         :  48
-INFO:root:Schlag Jürgen Fischer      :  26
-INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Aufschlag Jürgen Fischer   :  30
+INFO:root:Schlag Hans Müller         :  21
+INFO:root:Schlag Jürgen Fischer      :  46
+INFO:root:Schlag Hans Müller         :  12
+INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [3, 1]..........
 
 INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  45
-INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:Aufschlag Hans Müller      :  37
+INFO:root:Schlag Jürgen Fischer      :  24
+INFO:root:Schlag Hans Müller         :  12
+INFO:root:Schlag Jürgen Fischer      :  41
+INFO:root:Schlag Hans Müller         :  33
+INFO:root:Schlag Jürgen Fischer      :  28
+INFO:root:Schlag Hans Müller         :  25
+INFO:root:Schlag Jürgen Fischer      :  25
+INFO:root:Schlag Hans Müller         :  33
+INFO:root:Schlag Jürgen Fischer      :  36
+INFO:root:Schlag Hans Müller         :  38
+INFO:root:Schlag Jürgen Fischer      :  43
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  13
 INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [4, 1]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  44
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  23
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [4, 2]..........
+INFO:root:Aufschlag Hans Müller      :  34
+INFO:root:Schlag Jürgen Fischer      :  18
+INFO:root:Schlag Hans Müller         :  46
+INFO:root:Schlag Jürgen Fischer      :   0
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 1]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  11
-INFO:root:Schlag Hans Müller         :   2
-INFO:root:Schlag Jürgen Fischer      :  13
-INFO:root:Schlag Hans Müller         :   8
-INFO:root:Schlag Jürgen Fischer      :   2
-INFO:root:Schlag Hans Müller         :   8
-INFO:root:Schlag Jürgen Fischer      :   1
-INFO:root:Schlag Hans Müller         :  39
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Aufschlag Jürgen Fischer   :  39
+INFO:root:Schlag Hans Müller         :  30
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:Schlag Hans Müller         :  18
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:Schlag Hans Müller         :  19
+INFO:root:Schlag Jürgen Fischer      :  41
+INFO:root:Schlag Hans Müller         :  10
+INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [5, 2]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  34
-INFO:root:Schlag Hans Müller         :  47
-INFO:root:Schlag Jürgen Fischer      :  48
-INFO:root:Schlag Hans Müller         :  29
+INFO:root:Aufschlag Jürgen Fischer   :   6
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  25
+INFO:root:Schlag Hans Müller         :   4
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [5, 3]..........
 
 INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  44
-INFO:root:Schlag Jürgen Fischer      :  34
-INFO:root:Schlag Hans Müller         :  49
-INFO:root:Schlag Jürgen Fischer      :  39
-INFO:root:Schlag Hans Müller         :  48
-INFO:root:Schlag Jürgen Fischer      :  51
+INFO:root:Aufschlag Hans Müller      :   9
+INFO:root:Schlag Jürgen Fischer      :  22
 INFO:root:Schlag Hans Müller         :  34
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 4]..........
+INFO:root:Schlag Jürgen Fischer      :   7
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 3]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  46
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  38
-INFO:root:Schlag Jürgen Fischer      :  24
-INFO:root:Schlag Hans Müller         :   0
+INFO:root:Aufschlag Hans Müller      :  34
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  33
+INFO:root:Schlag Jürgen Fischer      :  35
+INFO:root:Schlag Hans Müller         :  42
+INFO:root:Schlag Jürgen Fischer      :  48
+INFO:root:Schlag Hans Müller         :  29
 INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 5]..........
+INFO:root:Neuer Spielstand: [6, 4]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  18
-INFO:root:Schlag Hans Müller         :  18
-INFO:root:Schlag Jürgen Fischer      :   6
-INFO:root:Schlag Hans Müller         :  34
-INFO:root:Schlag Jürgen Fischer      :  24
-INFO:root:Schlag Hans Müller         :  18
-INFO:root:Schlag Jürgen Fischer      :   4
+INFO:root:Aufschlag Jürgen Fischer   :  17
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:Schlag Jürgen Fischer      :  20
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:Schlag Jürgen Fischer      :  34
+INFO:root:Schlag Hans Müller         :  26
+INFO:root:Schlag Jürgen Fischer      :  18
 INFO:root:Schlag Hans Müller         :  48
-INFO:root:Schlag Jürgen Fischer      :  24
-INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Schlag Jürgen Fischer      :  43
+INFO:root:Schlag Hans Müller         :  39
+INFO:root:Schlag Jürgen Fischer      :  37
+INFO:root:Schlag Hans Müller         :  20
+INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [6, 5]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  50
-INFO:root:Schlag Hans Müller         :  46
-INFO:root:Schlag Jürgen Fischer      :  48
-INFO:root:Schlag Hans Müller         :   3
+INFO:root:Aufschlag Jürgen Fischer   :  33
+INFO:root:Schlag Hans Müller         :   1
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [6, 6]..........
 
 INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  42
-INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:Aufschlag Hans Müller      :   6
+INFO:root:Schlag Jürgen Fischer      :  21
+INFO:root:Schlag Hans Müller         :  29
+INFO:root:Schlag Jürgen Fischer      :   4
 INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [7, 6]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  48
-INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:Aufschlag Hans Müller      :  41
+INFO:root:Schlag Jürgen Fischer      :   0
 INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [8, 6]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  10
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :  49
-INFO:root:Schlag Hans Müller         :  25
+INFO:root:Aufschlag Jürgen Fischer   :  11
+INFO:root:Schlag Hans Müller         :   8
+INFO:root:Schlag Jürgen Fischer      :   7
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  24
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [8, 7]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  49
-INFO:root:Schlag Hans Müller         :  15
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [8, 8]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  23
-INFO:root:Schlag Jürgen Fischer      :  22
-INFO:root:Schlag Hans Müller         :   2
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [8, 9]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   8
-INFO:root:Schlag Jürgen Fischer      :  27
-INFO:root:Schlag Hans Müller         :  19
-INFO:root:Schlag Jürgen Fischer      :  48
-INFO:root:Schlag Hans Müller         :  27
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [8, 10]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  44
-INFO:root:Schlag Hans Müller         :  23
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [8, 11]..........
-
-INFO:root:Satz endet: [8, 11]
-
-
-
-INFO:root:Satz beginnt
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  18
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :  17
-INFO:root:Schlag Hans Müller         :  20
-INFO:root:Schlag Jürgen Fischer      :  15
-INFO:root:Schlag Hans Müller         :  22
-INFO:root:Schlag Jürgen Fischer      :  14
-INFO:root:Schlag Hans Müller         :   0
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [0, 1]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  11
-INFO:root:Schlag Hans Müller         :  14
-INFO:root:Schlag Jürgen Fischer      :  13
-INFO:root:Schlag Hans Müller         :  43
-INFO:root:Schlag Jürgen Fischer      :  16
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [1, 1]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  14
-INFO:root:Schlag Jürgen Fischer      :   0
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [2, 1]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   1
-INFO:root:Schlag Jürgen Fischer      :   0
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [3, 1]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  44
-INFO:root:Schlag Hans Müller         :   7
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [3, 2]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  38
-INFO:root:Schlag Hans Müller         :  29
-INFO:root:Schlag Jürgen Fischer      :  28
-INFO:root:Schlag Hans Müller         :   9
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [3, 3]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  23
-INFO:root:Schlag Jürgen Fischer      :  40
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :   6
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [4, 3]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   5
-INFO:root:Schlag Jürgen Fischer      :   4
-INFO:root:Schlag Hans Müller         :  43
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  45
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  39
-INFO:root:Schlag Jürgen Fischer      :   7
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [5, 3]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  10
-INFO:root:Schlag Hans Müller         :  18
-INFO:root:Schlag Jürgen Fischer      :  42
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :  30
-INFO:root:Schlag Hans Müller         :  27
-INFO:root:Schlag Jürgen Fischer      :  40
+INFO:root:Aufschlag Jürgen Fischer   :  21
+INFO:root:Schlag Hans Müller         :   8
+INFO:root:Schlag Jürgen Fischer      :  38
 INFO:root:Schlag Hans Müller         :   8
 INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 4]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  25
-INFO:root:Schlag Hans Müller         :  20
-INFO:root:Schlag Jürgen Fischer      :  33
-INFO:root:Schlag Hans Müller         :  42
-INFO:root:Schlag Jürgen Fischer      :  31
-INFO:root:Schlag Hans Müller         :  23
-INFO:root:Schlag Jürgen Fischer      :  31
-INFO:root:Schlag Hans Müller         :  36
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [6, 4]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  17
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:Schlag Hans Müller         :  28
-INFO:root:Schlag Jürgen Fischer      :  13
-INFO:root:Schlag Hans Müller         :  37
-INFO:root:Schlag Jürgen Fischer      :  26
-INFO:root:Schlag Hans Müller         :   1
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 5]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  25
-INFO:root:Schlag Jürgen Fischer      :  41
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :  24
-INFO:root:Schlag Hans Müller         :  41
-INFO:root:Schlag Jürgen Fischer      :  43
-INFO:root:Schlag Hans Müller         :  49
-INFO:root:Schlag Jürgen Fischer      :  34
-INFO:root:Schlag Hans Müller         :  22
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:Schlag Hans Müller         :   4
-INFO:root:Schlag Jürgen Fischer      :  43
-INFO:root:Schlag Hans Müller         :  24
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 6]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  47
-INFO:root:Schlag Hans Müller         :  31
-INFO:root:Schlag Jürgen Fischer      :  21
-INFO:root:Schlag Hans Müller         :  20
-INFO:root:Schlag Jürgen Fischer      :  21
-INFO:root:Schlag Hans Müller         :  22
-INFO:root:Schlag Jürgen Fischer      :  38
-INFO:root:Schlag Hans Müller         :   2
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 7]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  23
-INFO:root:Schlag Hans Müller         :  35
-INFO:root:Schlag Jürgen Fischer      :  21
-INFO:root:Schlag Hans Müller         :  41
-INFO:root:Schlag Jürgen Fischer      :  28
-INFO:root:Schlag Hans Müller         :  26
-INFO:root:Schlag Jürgen Fischer      :  51
-INFO:root:Schlag Hans Müller         :   3
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 8]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  33
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [7, 8]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  17
-INFO:root:Schlag Jürgen Fischer      :   1
-INFO:root:Schlag Hans Müller         :  41
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [8, 8]..........
 
-INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  11
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:Aufschlag Hans Müller      :  46
+INFO:root:Schlag Jürgen Fischer      :  17
 INFO:root:----> Punkt für {'Hans Müller'}
 INFO:root:Neuer Spielstand: [9, 8]..........
 
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  31
-INFO:root:Schlag Hans Müller         :   6
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [9, 9]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  11
-INFO:root:Schlag Jürgen Fischer      :  41
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [9, 10]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  36
-INFO:root:Schlag Jürgen Fischer      :  38
-INFO:root:Schlag Hans Müller         :  47
-INFO:root:Schlag Jürgen Fischer      :  38
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :  11
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [10, 10]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  23
-INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :  24
-INFO:root:Schlag Hans Müller         :   6
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [10, 11]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  29
-INFO:root:Schlag Hans Müller         :  12
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [10, 12]..........
-
-INFO:root:Satz endet: [10, 12]
-
-
-
-INFO:root:Satz beginnt
 INFO:root:Punkt beginnt ....................
 INFO:root:Aufschlag Hans Müller      :  24
-INFO:root:Schlag Jürgen Fischer      :   0
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [1, 0]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  37
-INFO:root:Schlag Jürgen Fischer      :  37
-INFO:root:Schlag Hans Müller         :  35
-INFO:root:Schlag Jürgen Fischer      :  51
-INFO:root:Schlag Hans Müller         :  12
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [1, 1]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  45
-INFO:root:Schlag Hans Müller         :  34
-INFO:root:Schlag Jürgen Fischer      :  26
-INFO:root:Schlag Hans Müller         :  27
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [1, 2]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  47
-INFO:root:Schlag Hans Müller         :  37
-INFO:root:Schlag Jürgen Fischer      :  47
-INFO:root:Schlag Hans Müller         :   6
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [1, 3]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :   6
-INFO:root:Schlag Jürgen Fischer      :  15
-INFO:root:Schlag Hans Müller         :  44
-INFO:root:Schlag Jürgen Fischer      :  15
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [2, 3]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  41
-INFO:root:Schlag Jürgen Fischer      :  15
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [3, 3]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  25
-INFO:root:Schlag Hans Müller         :  42
-INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:Schlag Hans Müller         :  31
+INFO:root:Schlag Jürgen Fischer      :  40
 INFO:root:Schlag Hans Müller         :   0
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [3, 4]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  17
-INFO:root:Schlag Hans Müller         :  13
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:Schlag Hans Müller         :  33
-INFO:root:Schlag Jürgen Fischer      :   8
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [4, 4]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  45
-INFO:root:Schlag Jürgen Fischer      :  10
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [5, 4]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  45
-INFO:root:Schlag Jürgen Fischer      :  40
-INFO:root:Schlag Hans Müller         :  21
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 5]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  47
-INFO:root:Schlag Hans Müller         :  30
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [5, 6]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :   9
-INFO:root:Schlag Hans Müller         :  41
-INFO:root:Schlag Jürgen Fischer      :  23
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [6, 6]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  19
-INFO:root:Schlag Jürgen Fischer      :   4
-INFO:root:Schlag Hans Müller         :  28
-INFO:root:Schlag Jürgen Fischer      :  38
-INFO:root:Schlag Hans Müller         :  48
-INFO:root:Schlag Jürgen Fischer      :  41
-INFO:root:Schlag Hans Müller         :   1
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [6, 7]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  49
-INFO:root:Schlag Jürgen Fischer      :  32
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [7, 7]..........
-
-INFO:root:Aufschlag wechselt zu: Hans Müller
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  22
-INFO:root:Schlag Hans Müller         :   9
-INFO:root:Schlag Jürgen Fischer      :  40
-INFO:root:Schlag Hans Müller         :  11
-INFO:root:----> Punkt für {'Jürgen Fischer'}
-INFO:root:Neuer Spielstand: [7, 8]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  37
-INFO:root:Schlag Hans Müller         :  47
-INFO:root:Schlag Jürgen Fischer      :  22
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [8, 8]..........
-
-INFO:root:Aufschlag wechselt zu: Jürgen Fischer
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  30
-INFO:root:Schlag Jürgen Fischer      :   3
-INFO:root:----> Punkt für {'Hans Müller'}
-INFO:root:Neuer Spielstand: [9, 8]..........
-
-INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Hans Müller      :  17
-INFO:root:Schlag Jürgen Fischer      :  41
-INFO:root:Schlag Hans Müller         :  30
-INFO:root:Schlag Jürgen Fischer      :  44
-INFO:root:Schlag Hans Müller         :  30
-INFO:root:Schlag Jürgen Fischer      :  50
-INFO:root:Schlag Hans Müller         :  16
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [9, 9]..........
 
 INFO:root:Aufschlag wechselt zu: Hans Müller
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :   7
+INFO:root:Aufschlag Jürgen Fischer   :   4
+INFO:root:Schlag Hans Müller         :  24
+INFO:root:Schlag Jürgen Fischer      :  45
 INFO:root:Schlag Hans Müller         :  16
-INFO:root:Schlag Jürgen Fischer      :  47
-INFO:root:Schlag Hans Müller         :   0
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [9, 10]..........
 
 INFO:root:Punkt beginnt ....................
-INFO:root:Aufschlag Jürgen Fischer   :  20
-INFO:root:Schlag Hans Müller         :  14
-INFO:root:Schlag Jürgen Fischer      :  51
-INFO:root:Schlag Hans Müller         :  20
+INFO:root:Aufschlag Jürgen Fischer   :  43
+INFO:root:Schlag Hans Müller         :   7
 INFO:root:----> Punkt für {'Jürgen Fischer'}
 INFO:root:Neuer Spielstand: [9, 11]..........
 
@@ -725,6 +366,719 @@ INFO:root:Satz endet: [9, 11]
 
 
 
+INFO:root:Satz beginnt
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   3
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [1, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   5
+INFO:root:Schlag Hans Müller         :  47
+INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  38
+INFO:root:Schlag Jürgen Fischer      :  19
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [3, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  31
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  34
+INFO:root:Schlag Jürgen Fischer      :   0
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [4, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  23
+INFO:root:Schlag Hans Müller         :  47
+INFO:root:Schlag Jürgen Fischer      :  20
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  34
+INFO:root:Schlag Hans Müller         :   1
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [5, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  25
+INFO:root:Schlag Jürgen Fischer      :  35
+INFO:root:Schlag Hans Müller         :   2
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [5, 2]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  23
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:Schlag Hans Müller         :   5
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:Schlag Hans Müller         :  43
+INFO:root:Schlag Jürgen Fischer      :  39
+INFO:root:Schlag Hans Müller         :  39
+INFO:root:Schlag Jürgen Fischer      :  29
+INFO:root:Schlag Hans Müller         :  29
+INFO:root:Schlag Jürgen Fischer      :  13
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :  43
+INFO:root:Schlag Jürgen Fischer      :  26
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 2]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  37
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [6, 3]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  30
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  22
+INFO:root:Schlag Hans Müller         :  24
+INFO:root:Schlag Jürgen Fischer      :  51
+INFO:root:Schlag Hans Müller         :  13
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [6, 4]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  38
+INFO:root:Schlag Jürgen Fischer      :  19
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [7, 4]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  22
+INFO:root:Schlag Jürgen Fischer      :  39
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  33
+INFO:root:Schlag Hans Müller         :   6
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [7, 5]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  40
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [7, 6]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   8
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :   1
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [8, 6]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   3
+INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:Schlag Hans Müller         :  12
+INFO:root:Schlag Jürgen Fischer      :  36
+INFO:root:Schlag Hans Müller         :  41
+INFO:root:Schlag Jürgen Fischer      :  45
+INFO:root:Schlag Hans Müller         :  25
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [8, 7]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   2
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:Schlag Hans Müller         :  49
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [9, 7]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  45
+INFO:root:Schlag Hans Müller         :  26
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 8]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  19
+INFO:root:Schlag Hans Müller         :   4
+INFO:root:Schlag Jürgen Fischer      :  41
+INFO:root:Schlag Hans Müller         :  25
+INFO:root:Schlag Jürgen Fischer      :   0
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [10, 8]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  29
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :   9
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [10, 9]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  18
+INFO:root:Schlag Jürgen Fischer      :  49
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  45
+INFO:root:Schlag Hans Müller         :  11
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [10, 10]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  27
+INFO:root:Schlag Hans Müller         :  15
+INFO:root:Schlag Jürgen Fischer      :  40
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :  41
+INFO:root:Schlag Jürgen Fischer      :  19
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [11, 10]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  16
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:Schlag Jürgen Fischer      :  21
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  16
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  27
+INFO:root:Schlag Hans Müller         :  28
+INFO:root:Schlag Jürgen Fischer      :  42
+INFO:root:Schlag Hans Müller         :  36
+INFO:root:Schlag Jürgen Fischer      :  17
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [12, 10]..........
+
+INFO:root:Satz endet: [12, 10]
+
+
+
+INFO:root:Satz beginnt
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   5
+INFO:root:Schlag Jürgen Fischer      :  27
+INFO:root:Schlag Hans Müller         :  15
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  46
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  13
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [1, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  47
+INFO:root:Schlag Jürgen Fischer      :  46
+INFO:root:Schlag Hans Müller         :  24
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [1, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  13
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  45
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [1, 2]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  33
+INFO:root:Schlag Hans Müller         :  12
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [1, 3]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  34
+INFO:root:Schlag Jürgen Fischer      :  42
+INFO:root:Schlag Hans Müller         :  44
+INFO:root:Schlag Jürgen Fischer      :  21
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 3]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  15
+INFO:root:Schlag Jürgen Fischer      :  42
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [2, 4]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   4
+INFO:root:Schlag Hans Müller         :  31
+INFO:root:Schlag Jürgen Fischer      :  40
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [3, 4]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  29
+INFO:root:Schlag Hans Müller         :  16
+INFO:root:Schlag Jürgen Fischer      :  18
+INFO:root:Schlag Hans Müller         :  46
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  24
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [3, 5]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  21
+INFO:root:Schlag Jürgen Fischer      :  43
+INFO:root:Schlag Hans Müller         :   4
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [3, 6]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   3
+INFO:root:Schlag Jürgen Fischer      :  24
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:Schlag Jürgen Fischer      :   3
+INFO:root:Schlag Hans Müller         :  48
+INFO:root:Schlag Jürgen Fischer      :  43
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [3, 7]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  15
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [4, 7]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  14
+INFO:root:Schlag Hans Müller         :  47
+INFO:root:Schlag Jürgen Fischer      :  21
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 7]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  40
+INFO:root:Schlag Jürgen Fischer      :  32
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 7]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   0
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [6, 8]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  36
+INFO:root:Schlag Hans Müller         :   3
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [6, 9]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  26
+INFO:root:Schlag Hans Müller         :  45
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  16
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [6, 10]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  22
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:Schlag Hans Müller         :  36
+INFO:root:Schlag Jürgen Fischer      :  19
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [7, 10]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   9
+INFO:root:Schlag Jürgen Fischer      :  13
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  32
+INFO:root:Schlag Hans Müller         :  32
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  38
+INFO:root:Schlag Jürgen Fischer      :  18
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [8, 10]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  36
+INFO:root:Schlag Hans Müller         :  42
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [9, 10]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  44
+INFO:root:Schlag Hans Müller         :  15
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 11]..........
+
+INFO:root:Satz endet: [9, 11]
+
+
+
+INFO:root:Satz beginnt
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  11
+INFO:root:Schlag Hans Müller         :  45
+INFO:root:Schlag Jürgen Fischer      :  28
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [1, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  34
+INFO:root:Schlag Hans Müller         :  36
+INFO:root:Schlag Jürgen Fischer      :  32
+INFO:root:Schlag Hans Müller         :  48
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  31
+INFO:root:Schlag Jürgen Fischer      :   6
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [3, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  29
+INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [4, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  40
+INFO:root:Schlag Hans Müller         :  43
+INFO:root:Schlag Jürgen Fischer      :  20
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  42
+INFO:root:Schlag Hans Müller         :  48
+INFO:root:Schlag Jürgen Fischer      :  19
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  49
+INFO:root:Schlag Jürgen Fischer      :   4
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [7, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  36
+INFO:root:Schlag Jürgen Fischer      :   2
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [8, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :   3
+INFO:root:Schlag Hans Müller         :  36
+INFO:root:Schlag Jürgen Fischer      :  10
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [9, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  13
+INFO:root:Schlag Hans Müller         :   3
+INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  51
+INFO:root:Schlag Hans Müller         :  26
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 1]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  39
+INFO:root:Schlag Jürgen Fischer      :  46
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 2]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  11
+INFO:root:Schlag Jürgen Fischer      :  37
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  20
+INFO:root:Schlag Hans Müller         :  10
+INFO:root:Schlag Jürgen Fischer      :  12
+INFO:root:Schlag Hans Müller         :   8
+INFO:root:Schlag Jürgen Fischer      :  48
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 3]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  28
+INFO:root:Schlag Hans Müller         :   4
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 4]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  37
+INFO:root:Schlag Hans Müller         :  12
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 5]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  22
+INFO:root:Schlag Jürgen Fischer      :  39
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 6]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  41
+INFO:root:Schlag Jürgen Fischer      :   1
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [10, 6]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  30
+INFO:root:Schlag Hans Müller         :  29
+INFO:root:Schlag Jürgen Fischer      :  32
+INFO:root:Schlag Hans Müller         :  14
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [10, 7]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  10
+INFO:root:Schlag Hans Müller         :  30
+INFO:root:Schlag Jürgen Fischer      :  48
+INFO:root:Schlag Hans Müller         :  39
+INFO:root:Schlag Jürgen Fischer      :  29
+INFO:root:Schlag Hans Müller         :  49
+INFO:root:Schlag Jürgen Fischer      :   7
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [11, 7]..........
+
+INFO:root:Satz endet: [11, 7]
+
+
+
+INFO:root:Satz beginnt
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  39
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [1, 0]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   4
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:Schlag Hans Müller         :  33
+INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [2, 0]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  38
+INFO:root:Schlag Hans Müller         :  17
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [2, 1]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  36
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  33
+INFO:root:Schlag Hans Müller         :  27
+INFO:root:Schlag Jürgen Fischer      :  42
+INFO:root:Schlag Hans Müller         :  13
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [2, 2]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  33
+INFO:root:Schlag Jürgen Fischer      :  18
+INFO:root:Schlag Hans Müller         :  37
+INFO:root:Schlag Jürgen Fischer      :  50
+INFO:root:Schlag Hans Müller         :  19
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [2, 3]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  25
+INFO:root:Schlag Jürgen Fischer      :  29
+INFO:root:Schlag Hans Müller         :  40
+INFO:root:Schlag Jürgen Fischer      :  35
+INFO:root:Schlag Hans Müller         :  15
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [2, 4]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  42
+INFO:root:Schlag Hans Müller         :  35
+INFO:root:Schlag Jürgen Fischer      :  26
+INFO:root:Schlag Hans Müller         :  10
+INFO:root:Schlag Jürgen Fischer      :  38
+INFO:root:Schlag Hans Müller         :  26
+INFO:root:Schlag Jürgen Fischer      :  24
+INFO:root:Schlag Hans Müller         :  39
+INFO:root:Schlag Jürgen Fischer      :  43
+INFO:root:Schlag Hans Müller         :  43
+INFO:root:Schlag Jürgen Fischer      :   9
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [3, 4]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  46
+INFO:root:Schlag Hans Müller         :  25
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [3, 5]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  22
+INFO:root:Schlag Jürgen Fischer      :  40
+INFO:root:Schlag Hans Müller         :  19
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [3, 6]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :   1
+INFO:root:Schlag Jürgen Fischer      :  30
+INFO:root:Schlag Hans Müller         :  39
+INFO:root:Schlag Jürgen Fischer      :  15
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [4, 6]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  14
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  39
+INFO:root:Schlag Hans Müller         :  33
+INFO:root:Schlag Jürgen Fischer      :  14
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [5, 6]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  31
+INFO:root:Schlag Hans Müller         :   5
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [5, 7]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  11
+INFO:root:Schlag Jürgen Fischer      :  11
+INFO:root:Schlag Hans Müller         :  22
+INFO:root:Schlag Jürgen Fischer      :   3
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [6, 7]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  31
+INFO:root:Schlag Jürgen Fischer      :   3
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [7, 7]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  30
+INFO:root:Schlag Hans Müller         :  18
+INFO:root:Schlag Jürgen Fischer      :  44
+INFO:root:Schlag Hans Müller         :  45
+INFO:root:Schlag Jürgen Fischer      :  39
+INFO:root:Schlag Hans Müller         :  47
+INFO:root:Schlag Jürgen Fischer      :  47
+INFO:root:Schlag Hans Müller         :  42
+INFO:root:Schlag Jürgen Fischer      :  27
+INFO:root:Schlag Hans Müller         :  38
+INFO:root:Schlag Jürgen Fischer      :  30
+INFO:root:Schlag Hans Müller         :   7
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [7, 8]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  37
+INFO:root:Schlag Hans Müller         :  47
+INFO:root:Schlag Jürgen Fischer      :  30
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [8, 8]..........
+
+INFO:root:Aufschlag wechselt zu: Jürgen Fischer
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  27
+INFO:root:Schlag Jürgen Fischer      :  31
+INFO:root:Schlag Hans Müller         :  22
+INFO:root:Schlag Jürgen Fischer      :   1
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [9, 8]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Hans Müller      :  10
+INFO:root:Schlag Jürgen Fischer      :  22
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  48
+INFO:root:Schlag Hans Müller         :  18
+INFO:root:----> Punkt für {'Jürgen Fischer'}
+INFO:root:Neuer Spielstand: [9, 9]..........
+
+INFO:root:Aufschlag wechselt zu: Hans Müller
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  22
+INFO:root:Schlag Hans Müller         :  38
+INFO:root:Schlag Jürgen Fischer      :  30
+INFO:root:Schlag Hans Müller         :  31
+INFO:root:Schlag Jürgen Fischer      :  13
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [10, 9]..........
+
+INFO:root:Punkt beginnt ....................
+INFO:root:Aufschlag Jürgen Fischer   :  13
+INFO:root:Schlag Hans Müller         :   6
+INFO:root:Schlag Jürgen Fischer      :  32
+INFO:root:Schlag Hans Müller         :  23
+INFO:root:Schlag Jürgen Fischer      :  51
+INFO:root:Schlag Hans Müller         :  38
+INFO:root:Schlag Jürgen Fischer      :  26
+INFO:root:Schlag Hans Müller         :  29
+INFO:root:Schlag Jürgen Fischer      :   5
+INFO:root:----> Punkt für {'Hans Müller'}
+INFO:root:Neuer Spielstand: [11, 9]..........
+
+INFO:root:Satz endet: [11, 9]
+
+
+
 INFO:root:########################################
-INFO:root:Endergebnis: [0, 4]
-INFO:root:Der Gewinner ist Jürgen Fischer
+INFO:root:Endergebnis: [4, 2]
+INFO:root:Der Gewinner ist Hans Müller
